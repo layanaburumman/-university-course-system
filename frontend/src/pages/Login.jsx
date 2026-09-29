@@ -17,7 +17,7 @@ function Login({ lang, onLoginSuccess }) {
     try {
       // إرسال طلب تسجيل الدخول الحقيقي للباكيند عبر Axios
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://university-course-system.onrender.com/api/auth/login",
         { email, password },
       );
 
